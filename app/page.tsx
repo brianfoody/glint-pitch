@@ -138,7 +138,7 @@ export default function PitchDeck() {
               <div className="grid md:grid-cols-2 gap-8 mb-12">
                 <div className="bg-purple-900/40 p-6 rounded-xl backdrop-blur-sm">
                   <Image
-                    src="/placeholder.svg?height=300&width=400"
+                    src="/img1.png"
                     alt="Cluttered product grid"
                     width={400}
                     height={300}
@@ -154,7 +154,7 @@ export default function PitchDeck() {
 
                 <div className="bg-purple-900/40 p-6 rounded-xl backdrop-blur-sm">
                   <Image
-                    src="/placeholder.svg?height=300&width=400"
+                    src="/img2.png"
                     alt="Frustrated shopper"
                     width={400}
                     height={300}
@@ -804,7 +804,7 @@ export default function PitchDeck() {
           {/* Slide 12: Closing */}
           {currentSlide === 11 && (
             <div className="animate-fadeIn">
-              <h2 className="text-4xl md:text-5xl font-bold text-white mb-8 text-center">
+              <h2 className="text-4xl md:text-5xl font-bold text-white mb-8">
                 Let's Make Shopping Shine
               </h2>
 
